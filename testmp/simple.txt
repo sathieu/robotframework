@@ -1,0 +1,16 @@
+*** Settings ***
+Documentation     Un test.
+...
+...               Bla bla.
+Library           Mouse
+
+*** Test Cases ***
+Test 1
+    Move mouse at   10  20
+    Click
+    Click at        30  40
+    Move mouse at   50  60
+    Right click
+    Right click at  70  80
+
+
